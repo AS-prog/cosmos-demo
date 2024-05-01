@@ -3,7 +3,7 @@ name: 'jaffle_shop'
 config-version: 2
 version: '0.1'
 
-profile: 'jaffle_shop'
+profile: 'dev'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -24,3 +24,4 @@ models:
       materialized: table
       staging:
         materialized: view
+ls
